@@ -1,0 +1,47 @@
+
+
+.container {
+    height: 600px;
+    width: 30%;
+    margin: auto;
+    background-color: whitesmoke;
+    margin-top: 20px;
+}
+
+.screen {
+    height: 30%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
+    font-size: 50px;
+    border-bottom: 1px solid whitesmoke;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.buttons {
+    min-height: 70%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.705);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.row button {
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 120px;
+    height: 80px;
+}
